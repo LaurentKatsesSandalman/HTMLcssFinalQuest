@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root{
+    --color-main: #A306B6;
+    --color-complementary: #b6ad06;
+    --color-font-onbg: #f6e6f8;
+    --bg-main:white;
+    --bg-secondary:#D9D9D9;
+    --font-title:Montserrat;
+    --font-content:Source sans 3;
+    --font-backup: sans-serif;
+    --sizefont-main: 1rem
+}
+
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+img{
+    display:block;
+}
+
+header{
+    height: 50vh;
+    background-color: var(--color-main);
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* height: calc(var(--sizefont-main) * 5); */
+    height: 25%;
+    width: 100%;
+}
+
+.logo{
+    height: calc(2 * var(--sizefont-main));
+}
+
+.header-div{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 75%;
+}
+
+.header-img{
+    height: 50%;
+}
+
+button{
+    transition: all 1s ease-in-out 0s;
+}
+
+button:hover{
+    transform: scale(1.1);
+    color:var(--color-main);
+    background-color: var(--color-complementary);
+
+}
+
+@media screen and (min-width:992px) {
+    
+}
