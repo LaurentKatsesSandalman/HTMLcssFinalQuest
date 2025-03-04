@@ -7,17 +7,21 @@
     --color-font-onbg: #f6e6f8;
     --bg-main:white;
     --bg-secondary:#D9D9D9;
-    --font-title:Montserrat;
-    --font-content:Source sans 3;
+    --font-title:"Montserrat";
+    --font-content:"Source sans 3";
     --font-backup: sans-serif;
     --sizefont-main: 1rem
 }
 
-body{
+*{
     margin:0;
     padding:0;
     box-sizing: border-box;
+    /* font-family: "Montserrat"; */
+    font-family: var(--font-content), var(--font-backup);
 }
+
+
 
 img{
     display:block;
@@ -26,20 +30,41 @@ img{
 header{
     height: 50vh;
     background-color: var(--color-main);
+    color: var(--color-font-onbg)
 }
 
 nav{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     /* height: calc(var(--sizefont-main) * 5); */
     height: 25%;
     width: 100%;
 }
 
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav a 
+{
+    text-decoration: none;
+    color:inherit;
+    font-weight: 800;
+}
+
 .logo{
     height: calc(2 * var(--sizefont-main));
+    margin: calc(var(--sizefont-main) * 0.5)
 }
 
 .header-div{
@@ -54,17 +79,36 @@ nav{
     height: 50%;
 }
 
-button{
+h1{
+    width:50%;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    color: var(--color-main);
+}
+
+.article-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap:var(--sizefont-main);
+    width: 90%
+}
+
+article{
+    background-color: var(--bg-secondary);
+}
+
+b.article_btn{
     transition: all 1s ease-in-out 0s;
 }
 
-button:hover{
+b.article_btn:hover{
     transform: scale(1.1);
     color:var(--color-main);
     background-color: var(--color-complementary);
 
 }
 
-@media screen and (min-width:992px) {
-    
-}
