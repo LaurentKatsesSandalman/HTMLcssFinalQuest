@@ -1,3 +1,52 @@
 @media screen and (min-width:992px) {
     
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: start;
+        height:15%;
+    }
+
+    nav ul{
+        width: 33%;
+    }
+
+    .header-div{
+        flex-direction: row;
+        height: 85%;
+    }
+
+    h1{
+        width:25%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
