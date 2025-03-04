@@ -21,6 +21,25 @@
         width:25%;
     }
 
+    .article-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: var(--sizefont-main) calc(var(--sizefont-main) * 5) calc(var(--sizefont-main) * 10);
+
+    }
+    article{
+        width: 25vw;
+    height: 25vw;
+    }
+
+    .image_container{
+        height: 65%;
+    }
+
+    .article_btn{
+        margin:calc(var(--sizefont-main) * 0.5);
+    }
+
 
 
 
