@@ -29,7 +29,7 @@
     }
     article{
         width: 25vw;
-    height: 25vw;
+        height: 25vw;
     }
 
     .image_container{
@@ -39,33 +39,5 @@
     .article_btn{
         margin:calc(var(--sizefont-main) * 0.5);
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
