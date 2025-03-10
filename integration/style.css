@@ -77,8 +77,6 @@ nav a
     height: 50%;
     border: 5px solid var(--color-font-onbg);
     border-radius: 500px;
-    -webkit-border-radius: 500px;
-    -moz-border-radius: 500px;
 }
 
 h1{
